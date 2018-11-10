@@ -1,0 +1,12 @@
+{
+  "name": "@test-monorepo/foobar",
+  "version": "1.0.0",
+  "description": "Combination of foo and bar",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@test-monorepo/bar": "^1.0.0",
+    "@test-monorepo/foo": "^1.0.0"
+  }
+}

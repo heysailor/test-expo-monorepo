@@ -1,0 +1,11 @@
+{
+  "name": "test-expo-monorepo",
+  "version": "1.0.0",
+  "description": "Test monorepository that includes a react-native/expo project",
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "Cameron Knight <cameron.knight@bumped.com>",
+  "license": "MIT",
+  "private": true
+}

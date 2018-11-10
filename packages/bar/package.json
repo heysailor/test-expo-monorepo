@@ -1,0 +1,8 @@
+{
+  "name": "@test-monorepo/bar",
+  "version": "1.0.0",
+  "description": "Bar-related functions for the monorepo",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false
+}
