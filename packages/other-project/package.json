@@ -1,0 +1,14 @@
+{
+  "name": "@test-repo/other-project",
+  "version": "1.0.0",
+  "description": "Another entrypoint, not related to react-native",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@test-monorepo/foobar": "^1.0.0",
+    "esm": "^3.0.84"
+  },
+  "scripts": {
+    "start": "node -r esm index.js"
+  }
+}

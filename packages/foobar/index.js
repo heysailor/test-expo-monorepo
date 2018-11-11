@@ -1,6 +1,6 @@
-const { foo } = require('@test-monorepo/foo');
-const { bar } = require('@test-monorepo/bar');
+import { foo } from '@test-monorepo/foo';
+import { bar } from '@test-monorepo/bar';
 
-exports.foobar = function() {
+export function foobar() {
   return foo() + ' ' + bar();
 }

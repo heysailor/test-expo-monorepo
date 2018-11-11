@@ -1,3 +1,3 @@
-exports.bar = function() {
+export function bar() {
   return 'bar?';
 }

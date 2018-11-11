@@ -1,3 +1,3 @@
-exports.foo = function() {
+export function foo() {
   return 'foo!';
 }
